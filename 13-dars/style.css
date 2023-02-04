@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url("./fonts/UbuntuMono-Regular.ttf")
+}
+@font-face {
+    font-family: 'Ubuntu Mono Italic';
+    src: url("./fonts/UbuntuMono-Italic.ttf")
+}
+@font-face {
+    font-family: 'Ubuntu Mono Bold';
+    src: url("./fonts/UbuntuMono-Bold.ttf")
+}
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+div {
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.custom-font {
+    font-family: 'Champagne & Limousines', Tahoma, Geneva, Verdana, sans-serif;
+}
+.google-font {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Festive', cursive;
+}
+
+.download-font {
+    font-family: 'Ubuntu Mono', monospace, sans-serif;
+}
