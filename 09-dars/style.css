@@ -1,0 +1,106 @@
+/* Kombinator - bu selektorlar orasidagi munosabatni tushuntiruvchi narsa. */
+
+/* 4 xil selektro mavjud */
+
+/* 
+avlod selektori (bo'sh joy)
+bola tanlagich (>)
+qo'shni aka-uka selektori (+)
+umumiy aka-uka selektori (~)
+*/
+
+/* div p {
+    background-color: blue;
+} */
+
+/* 
+div > p {
+    background-color: blue;
+}
+
+div + p {
+    background-color: blue;
+}
+
+div ~ p {
+    background-color: rgb(255, 0, 85);
+} */
+
+
+a {
+    width: 120px;
+    display: block;
+    color: white;
+    padding: 12px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(26, 8, 187);
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a:hover {
+    background-color: rgb(3, 9, 92);
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li > ul {
+    max-height: 0;
+    min-height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: max-height 1s;
+} 
+
+nav > ul > li:hover > ul {
+    max-height: 200px;
+}
+
+/* forma */
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=text]:focus {
+    background-color: aquamarine;
+}
+
+input[type=submit], input[type=reset] {
+    margin: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+input[type=submit] {
+    background-color: green;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(2, 66, 2);
+}
+
+input[type=reset] {
+    background-color: red;
+}
