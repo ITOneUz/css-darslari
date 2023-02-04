@@ -1,0 +1,57 @@
+body {
+	background-color: #eee;
+}
+
+.container {
+	width: 75%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	position: relative;
+}
+
+.myd {
+	display: block;
+	background-color: chocolate;
+}
+
+.myd2 {
+	display: inline-block;
+	background-color: chocolate;
+}
+
+.myd3 {
+	display: inline-flex;
+	background-color: chocolate;
+}
+
+.my-fixed {
+	width: 80px;
+	right: 10px;
+	bottom: 10px;
+	position: fixed;
+	text-align: center;
+	background-color: #fff;
+}
+
+.my-abs {
+	right: 10px;
+	bottom: 10px;
+	width: 120px;
+	height: 100px;
+	position: absolute;
+	text-align: center;
+	background-color: darkcyan;
+	z-index: 1;
+}
+
+.my-zindex {
+	right: 10px;
+	bottom: 10px;
+	width: 80px;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	background-color: rgb(57, 1, 80);
+}
