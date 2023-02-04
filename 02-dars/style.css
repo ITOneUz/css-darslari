@@ -1,0 +1,19 @@
+/*CSS darslari*/
+
+/*color*/
+/*background-color*/
+/*background-image*/
+
+body {
+	color: red;
+}
+
+div {
+	color: blue;
+	background-image: url("bg_img.jpg");
+	background-repeat: no-repeat;
+}
+
+p {
+	color: red;
+}
