@@ -1,0 +1,20 @@
+a {
+/*	border-style: solid;
+	border-width: 2px;
+	border-color: #F85C50;*/
+	border: solid 2px #F85C50;
+	color: #F85C50;
+	border-radius: 5px;
+
+	margin: 20px;
+	padding: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #F85C50;
+  border: none;
+}
