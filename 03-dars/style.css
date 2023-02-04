@@ -1,0 +1,20 @@
+/*CSS darslari*/
+
+/*margin*/
+/*padding*/
+
+span {
+	display: inline-block;
+}
+
+.olma {
+	background-color: green;
+	color: white;
+	padding: 20px 40px 30px 5px;
+}
+
+.giloz {
+	background-color: blue;
+	color: white;
+	margin-left: 50px;
+}
